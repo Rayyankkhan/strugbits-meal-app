@@ -13,8 +13,8 @@ const MealsList = ({ meals, onMealSelect, selectedMeal }) => {
             onClick={() => onMealSelect(meal)}
             className={`m-[9px] cursor-pointer flex items-center justify-between  ${
               selectedMeal.some((selectedMeal) => selectedMeal.id === meal.id)
-                ? "border-2 border-blue-500"
-                : "border-2 border-[#E2E2E2]"
+                ? "border-[1px] border-blue-500"
+                : "border-[1px] border-transparent"
             }`}
           >
             <MealCard
