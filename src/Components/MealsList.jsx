@@ -11,7 +11,7 @@ const MealsList = ({ meals, onMealSelect, selectedMeal }) => {
           <div
             key={meal.id}
             onClick={() => onMealSelect(meal)}
-            className={`m-[9px] cursor-pointer flex items-center justify-between  ${
+            className={`m-[9px] cursor-pointer flex items-center justify-between rounded-lg  ${
               selectedMeal.some((selectedMeal) => selectedMeal.id === meal.id)
                 ? "border-[1px] border-blue-500"
                 : "border-[1px] border-transparent"
