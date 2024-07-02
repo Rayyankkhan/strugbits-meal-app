@@ -1,6 +1,4 @@
-/* eslint-disable react/prop-types */
-import { useState, useEffect } from "react";
-import axios from "axios";
+
 import MealCard from "./MealCard";
 
 const MealsList = ({ meals, onMealSelect, selectedMeal }) => {

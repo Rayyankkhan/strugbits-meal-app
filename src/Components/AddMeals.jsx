@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import MealCard from './MealCard';
 
-const AddMealsModal = ({ isOpen, onClose, onAddMeal }) => {
+
+const AddMealsModal = ({ isOpen, onAddMeal }) => {
 
     
     const [selectedWeek, setSelectedWeek] = useState(null);
